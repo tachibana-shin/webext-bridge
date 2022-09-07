@@ -1,5 +1,5 @@
 {
-  "name": "webext-bridge",
+  "name": "@tachibana-shin/webext-bridge",
   "version": "5.0.5",
   "description": "Messaging in Web Extensions made easy. Out of the box.",
   "keywords": [
