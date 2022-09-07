@@ -1,6 +1,6 @@
 {
   "name": "@tachibana-shin/webext-bridge",
-  "version": "5.0.7",
+  "version": "5.0.8-beta.0",
   "description": "Messaging in Web Extensions made easy. Out of the box.",
   "keywords": [
     "chrome",
@@ -27,7 +27,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "watch": "npm run build -- --watch",
-    "release": "bumpp --commit --push --tag && npm run build && npm publish"
+    "release": "bumpp --commit --push --tag && npm run build && npm publish --access public"
   },
   "files": [
     "dist"
